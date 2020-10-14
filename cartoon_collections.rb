@@ -4,6 +4,7 @@ def greet_characters(array)
   # Print a custom greeting for each element
  array.each do |greeting|
    puts "Hello #{array.capitalize}" 
+ end
 end
 
 def list_dwarves(array)
